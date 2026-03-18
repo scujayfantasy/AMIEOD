@@ -17,7 +17,7 @@ Download the dataset as guided by [MAET](https://github.com/cuiziteng/ICCV_MAET)
 
 ```bash
 python train_stage1.py --weights "path/to/yolov3.pt" --data exdark.yaml --epochs 100 --cfg yolov3.yaml  --batch-size 8
-python train_stage2.py --weights "path/to/stage1_model.pt" --data exdark.yaml --epochs 30 --cfg yolov3,yaml --batch-size 1       
+python train_stage2.py --weights "path/to/stage1_model.pt" --data exdark.yaml --epochs 30 --cfg yolov3.yaml --batch-size 1       
 ```
 
 ### Test
