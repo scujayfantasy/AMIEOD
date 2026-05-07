@@ -17,7 +17,7 @@ Download the dataset as guided by [MAET](https://github.com/cuiziteng/ICCV_MAET)
 
 ```bash
 python train_stage1.py --weights "path/to/yolov3.pt" --data exdark.yaml --epochs 100 --cfg yolov3.yaml  --batch-size 8
-python train_stage2.py --weights "path/to/stage1_model.pt" --data exdark.yaml --epochs 30 --cfg yolov3.yaml --batch-size 1       
+python train_stage2.py --weights "path/to/stage1_model.pt" --data exdark.yaml --epochs 30 --cfg yolov3,yaml --batch-size 1       
 ```
 
 ### Test
@@ -42,7 +42,9 @@ python val_AMIEOD.py --weights "path/to/stage2_model" --data exdark.yaml --batch
 
 ### Quantitative comparison on ExDark.![qc](Fig/qc.png)
 
+###  Comparison of various baseline.
 
+![./Fig/](C:\Users\Administrator\Desktop\yolov3_submit\AMIEDOE\Fig\diff_base.png)
 
 ## Citation
 
