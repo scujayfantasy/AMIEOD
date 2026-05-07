@@ -42,9 +42,11 @@ python val_AMIEOD.py --weights "path/to/stage2_model" --data exdark.yaml --batch
 
 ### Quantitative comparison on ExDark.![qc](Fig/qc.png)
 
+
+
 ###  Comparison of various baseline.
 
-![](.\Fig\diff_base.png)
+![](Fig\db.png)
 
 ## Citation
 
