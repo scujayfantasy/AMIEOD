@@ -44,9 +44,7 @@ python val_AMIEOD.py --weights "path/to/stage2_model" --data exdark.yaml --batch
 
 
 
-###  Comparison of various baseline.
-
-![](Fig\db.png)
+###  Comparison of various baseline.![db](Fig\db.png)
 
 ## Citation
 
